@@ -1,0 +1,15 @@
+ Vue3 TypeScript Project Boilerplate
+
+ using vue cli
+ --------------
+
+ > vue create projectName
+ > manually select features
+ > check Typescript box
+ > select version 3
+ > class-stylr component ?  (as desired), here = no
+ > use babel along side ...  Yes
+ > ESLint + Error prevention only
+ > Lint on save
+ > in dedicated config files
+ > save preset (as desired), here = no
