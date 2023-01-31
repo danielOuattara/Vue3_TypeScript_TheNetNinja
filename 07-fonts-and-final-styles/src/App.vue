@@ -28,15 +28,7 @@ export default defineComponent({
     const orderTerm = ref<OrderBy>("title");
 
     function handleOrderBy(orderArg: OrderBy) {
-      // console.log(arg);
-      // if (arg == "title" || arg == "location") {
-      //   return 0;
-      // } else if (arg == "salary") {
-      //   return (jobs.value = jobs.value.sort(function (a, b: Job) {
-      //     return a.salary - b.salary;
-      //   }));
-      // }
-      // return 0;
+
 
       orderTerm.value = orderArg;
     }
